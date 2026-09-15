@@ -8,21 +8,26 @@ namespace ConsoleApp1.LaParca
     {
         public static void Main(string[] args)
         {
+            double a;
+            double b;
 
-            int a;
-            int b;
+            Console.WriteLine("Dame el valor de a: ");
+            a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Dame el valor de b: ");
+            b = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Dame el valor de A: ");
-            a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Dame el valor de B: ");
-            b = int.Parse(Console.ReadLine());
+            double suma = a + b;
+            double resta = a - b;
+            double multiplicacion = a * b; 
+            double division = b / a;
 
-            int suma = a + b;
+            Console.WriteLine("La suma es: " + suma);
+            Console.WriteLine("La resta es: " + resta);
+            Console.WriteLine("Lamultiplicacion es: " + multiplicacion);
+            Console.WriteLine("La division es: " + division);
 
-           Console.WriteLine("La suma es: " + suma );
-
-
-         }
+            Console.WriteLine("====================The fin=======================");
+        }
 
     }
 }
