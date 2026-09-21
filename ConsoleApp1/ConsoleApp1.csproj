@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ConsoleApp1.LaParca.Muerte</StartupObject>
+    <StartupObject>ConsoleApp1.guerraDelChaco.miniJuego</StartupObject>
   </PropertyGroup>
 
 </Project>
