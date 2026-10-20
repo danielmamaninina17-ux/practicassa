@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio19.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio20.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio18.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio17.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio15.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\guia08_punterosrecursividad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:guia08_punterosrecursividad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|c:\\new\\practicassa\\guia08_punterosrecursividad\\ejercicios\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{131A4F5D-1ADF-B8E8-F47F-FAE40E33C125}|Guia08_PunterosRecursividad.csproj|solutionrelative:ejercicios\\ejercicio1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ejercicio20.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio20.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio20.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio20.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio20.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:35:39.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ejercicio19.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio19.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio19.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio19.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio19.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:34:20.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ejercicio18.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio18.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio18.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio18.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio18.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:32:38.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ejercicio17.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio17.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio17.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio17.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio17.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:30:43.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ejercicio16.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio16.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio16.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio16.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio16.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:28:33.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ejercicio14.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio14.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio14.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio14.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio14.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:25:40.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ejercicio15.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\Ejercicio15.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\Ejercicio15.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\Ejercicio15.cs",
+              "RelativeToolTip": "Ejercicios\\Ejercicio15.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:25:18.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ejercicio13.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio13.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio13.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio13.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T21:23:39.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ejercicio10.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio10.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio10.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio10.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio10.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:52:27.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ejercicio11.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio11.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio11.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio11.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio11.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:53:27.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ejercicio9.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio9.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio9.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio9.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio9.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:51:18.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Guia08_PunterosRecursividad.csproj",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Guia08_PunterosRecursividad.csproj",
+              "RelativeDocumentMoniker": "Guia08_PunterosRecursividad.csproj",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Guia08_PunterosRecursividad.csproj",
+              "RelativeToolTip": "Guia08_PunterosRecursividad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-28T13:36:36.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ejercicio8.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio8.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio8.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio8.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:50:25.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ejercicio7.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio7.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio7.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio7.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:49:33.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ejercicio6.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio6.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio6.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio6.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:48:31.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ejercicio5.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio5.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio5.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio5.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:46:48.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ejercicio4.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio4.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio4.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio4.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:45:04.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ejercicio3.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio3.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio3.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio3.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:40:37.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T13:33:14.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ejercicio2.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio2.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio2.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio2.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T14:19:53.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ejercicio1.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio1.cs",
+              "RelativeDocumentMoniker": "Ejercicios\\ejercicio1.cs",
+              "ToolTip": "C:\\new\\practicassa\\Guia08_PunterosRecursividad\\Ejercicios\\ejercicio1.cs",
+              "RelativeToolTip": "Ejercicios\\ejercicio1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T13:53:09.741Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

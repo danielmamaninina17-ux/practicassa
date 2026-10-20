@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\new\\practicassa\\progra12DeOctubre\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|c:\\new\\practicassa\\progra12deoctubre\\practica\\ejercicio7si.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|solutionrelative:practica\\ejercicio7si.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|c:\\new\\practicassa\\progra12deoctubre\\practica\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|solutionrelative:practica\\ejercicio7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|c:\\new\\practicassa\\progra12deoctubre\\progra12deoctubre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E5B36AE-738B-4ACD-94AE-12DBE3E0E965}|progra12DeOctubre.csproj|solutionrelative:progra12deoctubre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "progra12DeOctubre",
+              "DocumentMoniker": "C:\\new\\practicassa\\progra12DeOctubre\\progra12DeOctubre.csproj",
+              "RelativeDocumentMoniker": "progra12DeOctubre.csproj",
+              "ToolTip": "C:\\new\\practicassa\\progra12DeOctubre\\progra12DeOctubre.csproj",
+              "RelativeToolTip": "progra12DeOctubre.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-12T13:59:24.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ejercicio7Si.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\progra12DeOctubre\\practica\\ejercicio7Si.cs",
+              "RelativeDocumentMoniker": "practica\\ejercicio7Si.cs",
+              "ToolTip": "C:\\new\\practicassa\\progra12DeOctubre\\practica\\ejercicio7Si.cs",
+              "RelativeToolTip": "practica\\ejercicio7Si.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:51:17.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ejercicio7.cs",
+              "DocumentMoniker": "C:\\new\\practicassa\\progra12DeOctubre\\practica\\ejercicio7.cs",
+              "RelativeDocumentMoniker": "practica\\ejercicio7.cs",
+              "ToolTip": "C:\\new\\practicassa\\progra12DeOctubre\\practica\\ejercicio7.cs",
+              "RelativeToolTip": "practica\\ejercicio7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T13:44:42.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

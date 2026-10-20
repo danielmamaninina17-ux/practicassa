@@ -1,0 +1,15 @@
+C:\new\practicassa\progra12DeOctubre\bin\Debug\net10.0\progra12DeOctubre.exe
+C:\new\practicassa\progra12DeOctubre\bin\Debug\net10.0\progra12DeOctubre.deps.json
+C:\new\practicassa\progra12DeOctubre\bin\Debug\net10.0\progra12DeOctubre.runtimeconfig.json
+C:\new\practicassa\progra12DeOctubre\bin\Debug\net10.0\progra12DeOctubre.dll
+C:\new\practicassa\progra12DeOctubre\bin\Debug\net10.0\progra12DeOctubre.pdb
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.GeneratedMSBuildEditorConfig.editorconfig
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.AssemblyInfoInputs.cache
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.AssemblyInfo.cs
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.csproj.CoreCompileInputs.cache
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.sourcelink.json
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.dll
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\refint\progra12DeOctubre.dll
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.pdb
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\progra12DeOctubre.genruntimeconfig.cache
+C:\new\practicassa\progra12DeOctubre\obj\Debug\net10.0\ref\progra12DeOctubre.dll

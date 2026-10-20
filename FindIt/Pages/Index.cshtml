@@ -1,0 +1,192 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<style>
+    .inicio {
+        padding: 50px 24px;
+        text-align: center;
+        background: linear-gradient(135deg, #eef5ff, #f8fbff);
+        border-radius: 18px;
+        margin-top: 25px;
+        border: 1px solid #dbeafe;
+    }
+
+        .inicio h1 {
+            color: #174ea6;
+            font-size: 44px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+    .subtitulo {
+        color: #174ea6;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .inicio p {
+        font-size: 18px;
+        line-height: 1.7;
+        color: #334155;
+        max-width: 680px;
+        margin: 15px auto 0;
+    }
+
+    .secciones {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+        gap: 22px;
+        margin: 32px 0;
+    }
+
+    .tarjeta-findit {
+        padding: 28px 24px;
+        border: 1px solid #dbe4f0;
+        border-radius: 14px;
+        background: white;
+        box-shadow: 0 4px 12px rgba(23, 78, 166, 0.06);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .tarjeta-findit:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(23, 78, 166, 0.12);
+        }
+
+    .icono-tarjeta {
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #eef5ff;
+        border-radius: 12px;
+        font-size: 27px;
+        margin-bottom: 18px;
+    }
+
+    .tarjeta-findit h2 {
+        color: #174ea6;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .tarjeta-findit p {
+        color: #475569;
+        line-height: 1.7;
+        flex-grow: 1;
+        margin-bottom: 22px;
+    }
+
+    .boton-findit {
+        display: inline-block;
+        padding: 12px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        background: #174ea6;
+        color: white;
+        text-align: center;
+        transition: background 0.2s;
+    }
+
+        .boton-findit:hover {
+            background: #123d82;
+            color: white;
+            text-decoration: none;
+        }
+
+    .pie-inicio {
+        text-align: center;
+        color: #64748b;
+        margin: 10px 0 35px;
+        font-size: 14px;
+    }
+
+    @@media (max-width: 600px) {
+        .inicio {
+            padding: 35px 18px;
+        }
+
+            .inicio h1 {
+                font-size: 36px;
+            }
+
+            .inicio p {
+                font-size: 16px;
+            }
+    }
+</style>
+
+<section class="inicio">
+    <div class="subtitulo">Encuentra · Reporta · Recupera</div>
+
+    <h1>Bienvenido a FindIt</h1>
+
+    <p>
+        ¿Perdiste un objeto o encontraste algo que pertenece a otra persona?
+        Utiliza FindIt para consultar reportes, publicar objetos perdidos
+        o encontrados y ayudar a que regresen con sus dueños.
+    </p>
+</section>
+
+<section class="secciones">
+
+    <article class="tarjeta-findit">
+        <div class="icono-tarjeta">🔎</div>
+
+        <h2>Buscar objetos</h2>
+
+        <p>
+            Explora los reportes publicados y utiliza los filtros para
+            encontrar objetos perdidos o encontrados.
+        </p>
+
+        <a class="boton-findit" href="/Objetos">
+            Buscar objetos
+        </a>
+    </article>
+
+    <article class="tarjeta-findit">
+        <div class="icono-tarjeta">📢</div>
+
+        <h2>Reportar un objeto</h2>
+
+        <p>
+            ¿Perdiste algo o encontraste un objeto? Registra la información,
+            la ubicación y una fotografía para ayudar a identificarlo.
+        </p>
+
+        <a class="boton-findit" href="/Registrar">
+            Publicar reporte
+        </a>
+    </article>
+
+    <article class="tarjeta-findit">
+        <div class="icono-tarjeta">🤝</div>
+
+        <h2>Recuperar objetos</h2>
+
+        <p>
+            Conoce los pasos para identificar un objeto, consultar reportes
+            de objetos encontrados y facilitar su devolución.
+        </p>
+
+        <a class="boton-findit" href="/Recuperar">
+            Cómo recuperar un objeto
+        </a>
+    </article>
+
+</section>
+
+<div class="pie-inicio">
+    FindIt · Una plataforma para ayudar a recuperar objetos perdidos.
+</div>

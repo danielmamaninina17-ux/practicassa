@@ -1,0 +1,201 @@
+﻿@page "{id:int}"
+@model FindIt.Pages.EditarModel
+
+@{
+    ViewData["Title"] = "Editar reporte";
+}
+
+<style>
+    .contenedor-editar {
+        max-width: 800px;
+        margin: 30px auto 45px;
+        padding: 28px;
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    }
+
+        .contenedor-editar h1 {
+            color: #174ea6;
+            margin-bottom: 10px;
+        }
+
+    .descripcion-editar {
+        color: #64748b;
+        margin-bottom: 25px;
+    }
+
+    .formulario-editar {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+    }
+
+    .campo {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+    .campo-completo {
+        grid-column: 1 / -1;
+    }
+
+    .campo label {
+        font-weight: bold;
+        color: #334155;
+    }
+
+    .campo input,
+    .campo select,
+    .campo textarea {
+        width: 100%;
+        padding: 11px;
+        border: 1px solid #cbd5e1;
+        border-radius: 7px;
+        font: inherit;
+    }
+
+    .campo textarea {
+        min-height: 120px;
+        resize: vertical;
+    }
+
+    .foto-actual {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 1px solid #e2e8f0;
+    }
+
+    .botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 25px;
+    }
+
+    .boton-guardar {
+        padding: 12px 20px;
+        color: white;
+        background: #174ea6;
+        border: none;
+        border-radius: 7px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .boton-cancelar {
+        display: inline-block;
+        padding: 12px 20px;
+        color: #334155;
+        background: #e2e8f0;
+        border-radius: 7px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .errores {
+        padding: 12px;
+        margin-bottom: 20px;
+        color: #991b1b;
+        background: #fee2e2;
+        border-radius: 7px;
+    }
+</style>
+
+<div class="contenedor-editar">
+    <h1>Editar reporte</h1>
+
+    <p class="descripcion-editar">
+        Modifica la información del objeto y guarda los cambios.
+    </p>
+
+    <div asp-validation-summary="All" class="errores"></div>
+
+    <form method="post">
+        <input type="hidden" asp-for="ObjetoEditar.IdObjeto" />
+
+        <div class="formulario-editar">
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.Nombre">Nombre del objeto</label>
+                <input asp-for="ObjetoEditar.Nombre" maxlength="120" required />
+            </div>
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.Categoria">Categoría</label>
+                <select asp-for="ObjetoEditar.Categoria" required>
+                    <option value="">Selecciona una categoría</option>
+                    @foreach (var categoria in Model.Categorias)
+                    {
+                        <option value="@categoria">@categoria</option>
+                    }
+                </select>
+            </div>
+
+            <div class="campo campo-completo">
+                <label asp-for="ObjetoEditar.Descripcion">Descripción</label>
+                <textarea asp-for="ObjetoEditar.Descripcion"
+                          maxlength="1000"
+                          required></textarea>
+            </div>
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.Ubicacion">Ubicación</label>
+                <input asp-for="ObjetoEditar.Ubicacion"
+                       maxlength="200"
+                       required />
+            </div>
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.TipoReporte">Tipo de reporte</label>
+                <select asp-for="ObjetoEditar.TipoReporte" required>
+                    <option value="Perdido">Perdido</option>
+                    <option value="Encontrado">Encontrado</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.Estado">Estado del reporte</label>
+                <select asp-for="ObjetoEditar.Estado" required>
+                    <option value="Activo">Activo</option>
+                    <option value="EnProceso">En proceso</option>
+                    <option value="Devuelto">Devuelto</option>
+                    <option value="Cerrado">Cerrado</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label asp-for="ObjetoEditar.Fecha">Fecha del suceso</label>
+                <input asp-for="ObjetoEditar.Fecha"
+                       type="date"
+                       asp-format="{0:yyyy-MM-dd}" />
+            </div>
+
+            @if (!string.IsNullOrWhiteSpace(Model.ObjetoEditar.FotoURL))
+            {
+                <div class="campo campo-completo">
+                    <label>Fotografía actual</label>
+                    <img src="@Model.ObjetoEditar.FotoURL"
+                         alt="Fotografía actual del objeto"
+                         class="foto-actual" />
+                    <p>La fotografía se conservará al guardar los cambios.</p>
+                </div>
+            }
+
+        </div>
+
+        <div class="botones">
+            <button type="submit" class="boton-guardar">
+                Guardar cambios
+            </button>
+
+            <a asp-page="/Objetos" class="boton-cancelar">
+                Cancelar
+            </a>
+        </div>
+    </form>
+</div>

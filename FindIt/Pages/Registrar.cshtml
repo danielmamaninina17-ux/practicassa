@@ -1,0 +1,268 @@
+﻿@page
+@model FindIt.Pages.RegistrarModel
+
+@{
+    ViewData["Title"] = "Publicar objeto";
+}
+
+<style>
+    .registro-contenedor {
+        max-width: 760px;
+        margin: 35px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 14px;
+        box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .campo {
+        margin-bottom: 18px;
+    }
+
+        .campo label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        .campo input,
+        .campo select,
+        .campo textarea {
+            width: 100%;
+            padding: 11px;
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            box-sizing: border-box;
+        }
+
+        .campo textarea {
+            min-height: 110px;
+            resize: vertical;
+        }
+
+    .foto-contenedor {
+        padding: 18px;
+        border: 2px dashed #b7c5d8;
+        border-radius: 10px;
+        background: #f8fafc;
+    }
+
+    .foto-botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 12px;
+    }
+
+    .boton-foto {
+        display: inline-block;
+        padding: 10px 14px;
+        border-radius: 7px;
+        background: #e5edf7;
+        color: #1d3557;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    #vistaPrevia {
+        display: none;
+        width: 100%;
+        max-height: 300px;
+        object-fit: contain;
+        margin-top: 15px;
+        border-radius: 8px;
+        background: #eee;
+    }
+
+    .botones {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+    .btn-publicar {
+        background: #1d3557;
+        color: white;
+        border: none;
+        padding: 12px 22px;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+
+    .btn-volver {
+        display: inline-block;
+        padding: 12px 22px;
+        border-radius: 7px;
+        background: #eeeeee;
+        color: #222;
+        text-decoration: none;
+    }
+
+    .errores {
+        color: #b42318;
+        margin-bottom: 15px;
+    }
+</style>
+
+<div class="registro-contenedor">
+    <h1>Publicar un objeto</h1>
+
+    <p>
+        Completa los datos del objeto perdido o encontrado.
+        También puedes agregar una fotografía.
+    </p>
+
+    <form method="post"
+          enctype="multipart/form-data">
+
+        <div asp-validation-summary="ModelOnly"
+             class="errores"></div>
+
+        <div class="campo">
+            <label asp-for="NuevoObjeto.Nombre">Nombre del objeto *</label>
+            <input asp-for="NuevoObjeto.Nombre"
+                   maxlength="120"
+                   placeholder="Ej.: Celular Samsung negro"
+                   required />
+        </div>
+
+        <div class="campo">
+            <label asp-for="NuevoObjeto.Descripcion">Descripción *</label>
+            <textarea asp-for="NuevoObjeto.Descripcion"
+                      maxlength="1000"
+                      placeholder="Describe el objeto..."
+                      required></textarea>
+        </div>
+
+        <div class="campo">
+            <label asp-for="NuevoObjeto.Categoria">Categoría *</label>
+            <select asp-for="NuevoObjeto.Categoria" required>
+                <option value="">Selecciona una categoría</option>
+                <option value="Documentos">Documentos</option>
+                <option value="Telefonos">Teléfonos</option>
+                <option value="Llaves">Llaves</option>
+                <option value="Mochilas y bolsos">Mochilas y bolsos</option>
+                <option value="Ropa">Ropa</option>
+                <option value="Electronica">Electrónica</option>
+                <option value="Accesorios">Accesorios</option>
+                <option value="Otros">Otros</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label asp-for="NuevoObjeto.Ubicacion">Ubicación *</label>
+            <input asp-for="NuevoObjeto.Ubicacion"
+                   maxlength="200"
+                   placeholder="Ej.: Universidad, edificio principal"
+                   required />
+        </div>
+
+        <div class="campo">
+            <label asp-for="NuevoObjeto.TipoReporte">Tipo de reporte *</label>
+            <select asp-for="NuevoObjeto.TipoReporte" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Perdido">Objeto perdido</option>
+                <option value="Encontrado">Objeto encontrado</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label>Fotografía del objeto (opcional)</label>
+
+            <div class="foto-contenedor">
+                <p>
+                    Selecciona una imagen guardada o toma una foto
+                    con la cámara de tu dispositivo.
+                </p>
+
+                <div class="foto-botones">
+                    <label class="boton-foto" for="Foto">
+                        Seleccionar imagen
+                    </label>
+
+                    <label class="boton-foto" for="FotoCamara">
+                        Tomar foto
+                    </label>
+                </div>
+
+                <input type="file"
+                       id="Foto"
+                       name="Foto"
+                       accept="image/*"
+                       hidden />
+
+                <input type="file"
+                       id="FotoCamara"
+                       accept="image/*"
+                       capture="environment"
+                       hidden />
+
+                <img id="vistaPrevia"
+                     alt="Vista previa de la fotografía" />
+
+                <p id="nombreFoto">No has seleccionado una foto.</p>
+            </div>
+        </div>
+
+        <div class="botones">
+            <button type="submit" class="btn-publicar">
+                Publicar objeto
+            </button>
+
+            <a asp-page="/Objetos" class="btn-volver">
+                Volver a la búsqueda
+            </a>
+        </div>
+    </form>
+</div>
+
+<script>
+    const campoFoto = document.getElementById("Foto");
+    const campoCamara = document.getElementById("FotoCamara");
+    const vistaPrevia = document.getElementById("vistaPrevia");
+    const nombreFoto = document.getElementById("nombreFoto");
+
+    let urlFoto = null;
+
+    function mostrarFoto(archivo) {
+        if (!archivo) return;
+
+        if (!archivo.type.startsWith("image/")) {
+            nombreFoto.textContent = "Selecciona un archivo de imagen válido.";
+            return;
+        }
+
+        if (urlFoto) {
+            URL.revokeObjectURL(urlFoto);
+        }
+
+        urlFoto = URL.createObjectURL(archivo);
+        vistaPrevia.src = urlFoto;
+        vistaPrevia.style.display = "block";
+        nombreFoto.textContent = archivo.name;
+    }
+
+    campoFoto.addEventListener("change", function() {
+        if (this.files.length > 0) {
+            campoCamara.value = "";
+            mostrarFoto(this.files[0]);
+        }
+    });
+
+    campoCamara.addEventListener("change", function() {
+        if (this.files.length > 0) {
+            campoFoto.value = "";
+            mostrarFoto(this.files[0]);
+
+            try {
+                const transferencia = new DataTransfer();
+                transferencia.items.add(this.files[0]);
+                campoFoto.files = transferencia.files;
+            } catch {
+                nombreFoto.textContent =
+                    "Foto seleccionada. Si no se adjunta al publicar, usa Seleccionar imagen.";
+            }
+        }
+    });
+</script>

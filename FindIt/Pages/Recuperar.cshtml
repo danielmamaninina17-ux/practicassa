@@ -1,0 +1,221 @@
+﻿@page
+@model FindIt.Pages.RecuperarModel
+
+@{
+    ViewData["Title"] = "Recuperar objetos";
+}
+
+<style>
+    .recuperar-contenedor {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .recuperar-encabezado {
+        background-color: #eef5ff;
+        border: 1px solid #dbeafe;
+        border-radius: 16px;
+        padding: 35px 25px;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+        .recuperar-encabezado h1 {
+            color: #174ea6;
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .recuperar-encabezado p {
+            max-width: 700px;
+            margin: 0 auto;
+            color: #334155;
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+    .pasos-recuperacion {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-bottom: 30px;
+    }
+
+    .paso-recuperacion {
+        padding: 24px;
+        background-color: #ffffff;
+        border: 1px solid #dbe4f0;
+        border-radius: 12px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .paso-recuperacion:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10);
+        }
+
+    .numero-paso {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        background-color: #174ea6;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .paso-recuperacion h2 {
+        font-size: 20px;
+        color: #174ea6;
+        margin-bottom: 10px;
+    }
+
+    .paso-recuperacion p {
+        color: #475569;
+        line-height: 1.7;
+        margin: 0;
+    }
+
+    .aviso-recuperacion {
+        background-color: #fff8e6;
+        border-left: 5px solid #eab308;
+        padding: 18px;
+        border-radius: 8px;
+        margin-bottom: 28px;
+        color: #713f12;
+        line-height: 1.7;
+    }
+
+        .aviso-recuperacion h2 {
+            font-size: 19px;
+            margin-bottom: 10px;
+        }
+
+    .acciones-recuperacion {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 25px 0;
+    }
+
+    @@media (max-width: 576px) {
+        .recuperar-contenedor {
+            padding: 12px;
+            margin: 15px auto;
+        }
+
+        .recuperar-encabezado {
+            padding: 25px 18px;
+        }
+
+            .recuperar-encabezado h1 {
+                font-size: 28px;
+            }
+
+        .paso-recuperacion {
+            padding: 20px;
+        }
+    }
+</style>
+
+<div class="container">
+    <main class="recuperar-contenedor">
+
+        <section class="recuperar-encabezado">
+            <h1>🤝 Recuperar objetos</h1>
+
+            <p>
+                ¿Perdiste un objeto o encontraste algo que pertenece
+                a otra persona? En FindIt puedes consultar los reportes
+                y seguir estos pasos para facilitar su devolución.
+            </p>
+        </section>
+
+        <h2 class="text-center mb-4">
+            ¿Cómo recuperar un objeto?
+        </h2>
+
+        <div class="pasos-recuperacion">
+
+            <article class="paso-recuperacion">
+                <div class="numero-paso">1</div>
+                <h2>Busca el objeto</h2>
+                <p>
+                    Ingresa a la sección Buscar objetos y utiliza
+                    los filtros para localizar reportes según el
+                    nombre, la categoría, el tipo o la ubicación.
+                </p>
+            </article>
+
+            <article class="paso-recuperacion">
+                <div class="numero-paso">2</div>
+                <h2>Revisa los detalles</h2>
+                <p>
+                    Comprueba la descripción, el color, la categoría
+                    y el lugar donde se perdió o se encontró el objeto.
+                    Verifica que coincida con lo que buscas.
+                </p>
+            </article>
+
+            <article class="paso-recuperacion">
+                <div class="numero-paso">3</div>
+                <h2>Verifica la propiedad</h2>
+                <p>
+                    Antes de entregar un objeto, solicita a la persona
+                    que lo reclama que describa sus características
+                    particulares para comprobar que le pertenece.
+                </p>
+            </article>
+
+            <article class="paso-recuperacion">
+                <div class="numero-paso">4</div>
+                <h2>Coordina la devolución</h2>
+                <p>
+                    Si encuentras una coincidencia, utiliza los medios
+                    de contacto autorizados disponibles en el reporte
+                    para coordinar la devolución del objeto.
+                </p>
+            </article>
+
+        </div>
+
+        <section class="aviso-recuperacion">
+            <h2>⚠️ Recomendaciones de seguridad</h2>
+
+            <ul class="mb-0">
+                <li>
+                    No publiques contraseñas ni datos personales privados.
+                </li>
+                <li>
+                    Comprueba que el objeto pertenezca a quien lo reclama.
+                </li>
+                <li>
+                    Si acuerdas una entrega presencial, elige un lugar
+                    público y seguro.
+                </li>
+                <li>
+                    No compartas información de terceros sin su autorización.
+                </li>
+            </ul>
+        </section>
+
+        <div class="acciones-recuperacion">
+            <a asp-page="/Objetos" class="btn btn-primary btn-lg">
+                🔎 Buscar objetos
+            </a>
+
+            <a asp-page="/Index"
+               class="btn btn-outline-secondary btn-lg">
+                Volver al inicio
+            </a>
+        </div>
+
+    </main>
+</div>

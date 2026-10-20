@@ -1,0 +1,166 @@
+﻿@page
+@model FindIt.Pages.RegistroModel
+
+@{
+    ViewData["Title"] = "Crear cuenta";
+}
+
+<style>
+    .registro-contenedor {
+        max-width: 520px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .registro-tarjeta {
+        padding: 30px;
+        background: white;
+        border: 1px solid #dbe4f0;
+        border-radius: 16px;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+    }
+
+    .registro-encabezado {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+        .registro-encabezado h1 {
+            color: #174ea6;
+            margin-bottom: 8px;
+        }
+
+    .registro-campo {
+        margin-bottom: 18px;
+    }
+
+        .registro-campo label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 7px;
+        }
+
+        .registro-campo input {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+            .registro-campo input:focus {
+                outline: 2px solid #93c5fd;
+                border-color: #174ea6;
+            }
+
+    .boton-registro {
+        width: 100%;
+        padding: 13px;
+        background: #174ea6;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .boton-registro:hover {
+            background: #123b7a;
+        }
+
+    .registro-nota {
+        margin-top: 18px;
+        color: #64748b;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .mensaje-exito {
+        background-color: #d4edda;
+        color: #155724;
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        border: 1px solid #c3e6cb;
+        text-align: center;
+    }
+</style>
+
+<div class="registro-contenedor">
+    <div class="registro-tarjeta">
+
+        <div class="registro-encabezado">
+            <h1>Crear cuenta</h1>
+            <p>Únete a FindIt para ayudar a recuperar objetos perdidos.</p>
+        </div>
+
+        @if (TempData["MensajeExito"] != null)
+        {
+            <div class="mensaje-exito" role="status">
+                @TempData["MensajeExito"]
+            </div>
+        }
+
+        <form method="post">
+
+            <div asp-validation-summary="All"
+                 style="color: #dc3545; margin-bottom: 15px;">
+            </div>
+
+            <div class="registro-campo">
+                <label asp-for="Nombre">Nombre completo</label>
+                <input asp-for="Nombre"
+                       placeholder="Ej. Juan Pérez"
+                       autocomplete="name" />
+                <span asp-validation-for="Nombre"
+                      style="color: #dc3545;">
+                </span>
+            </div>
+
+            <div class="registro-campo">
+                <label asp-for="Correo">Correo electrónico</label>
+                <input asp-for="Correo"
+                       type="email"
+                       placeholder="correo@ejemplo.com"
+                       autocomplete="email" />
+                <span asp-validation-for="Correo"
+                      style="color: #dc3545;">
+                </span>
+            </div>
+
+            <div class="registro-campo">
+                <label asp-for="Telefono">Teléfono</label>
+                <input asp-for="Telefono"
+                       type="tel"
+                       placeholder="Ej. 70000000"
+                       autocomplete="tel" />
+                <span asp-validation-for="Telefono"
+                      style="color: #dc3545;">
+                </span>
+            </div>
+
+            <div class="registro-campo">
+                <label asp-for="Contrasena">Contraseña</label>
+                <input asp-for="Contrasena"
+                       type="password"
+                       placeholder="Mínimo 8 caracteres"
+                       autocomplete="new-password" />
+                <span asp-validation-for="Contrasena"
+                      style="color: #dc3545;">
+                </span>
+            </div>
+
+            <button type="submit" class="boton-registro">
+                Crear cuenta
+            </button>
+
+        </form>
+
+        <p class="registro-nota">
+            Tus datos deben utilizarse de forma segura.
+        </p>
+
+    </div>
+</div>

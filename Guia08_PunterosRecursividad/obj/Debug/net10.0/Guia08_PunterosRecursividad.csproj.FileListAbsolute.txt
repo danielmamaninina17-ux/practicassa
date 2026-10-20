@@ -1,0 +1,15 @@
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.GeneratedMSBuildEditorConfig.editorconfig
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.AssemblyInfoInputs.cache
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.AssemblyInfo.cs
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.csproj.CoreCompileInputs.cache
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.sourcelink.json
+C:\new\practicassa\Guia08_PunterosRecursividad\bin\Debug\net10.0\Guia08_PunterosRecursividad.exe
+C:\new\practicassa\Guia08_PunterosRecursividad\bin\Debug\net10.0\Guia08_PunterosRecursividad.deps.json
+C:\new\practicassa\Guia08_PunterosRecursividad\bin\Debug\net10.0\Guia08_PunterosRecursividad.runtimeconfig.json
+C:\new\practicassa\Guia08_PunterosRecursividad\bin\Debug\net10.0\Guia08_PunterosRecursividad.dll
+C:\new\practicassa\Guia08_PunterosRecursividad\bin\Debug\net10.0\Guia08_PunterosRecursividad.pdb
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.dll
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\refint\Guia08_PunterosRecursividad.dll
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.pdb
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\Guia08_PunterosRecursividad.genruntimeconfig.cache
+C:\new\practicassa\Guia08_PunterosRecursividad\obj\Debug\net10.0\ref\Guia08_PunterosRecursividad.dll

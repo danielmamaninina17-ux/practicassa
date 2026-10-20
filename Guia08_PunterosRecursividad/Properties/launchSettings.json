@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Guia08_PunterosRecursividad": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+
+# Archivos temporales de Visual Studio
+.vs/
+**/.vs/
+
+# Carpetas de compilación de .NET
+bin/
+obj/
+
+# Archivos temporales de usuario
+*.user
+*.suo

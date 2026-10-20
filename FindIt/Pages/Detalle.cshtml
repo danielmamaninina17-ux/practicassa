@@ -1,0 +1,180 @@
+﻿@page "{id:int}"
+@model FindIt.Pages.DetalleModel
+
+@{
+    ViewData["Title"] = "Detalle del objeto";
+}
+
+<style>
+    .detalle-contenedor {
+        max-width: 900px;
+        margin: 35px auto;
+        padding: 25px;
+    }
+
+    .detalle-tarjeta {
+        background: #ffffff;
+        border: 1px solid #dbe4f0;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .detalle-encabezado {
+        background: #eef5ff;
+        padding: 25px;
+        text-align: center;
+    }
+
+        .detalle-encabezado h1 {
+            color: #174ea6;
+            margin: 0;
+        }
+
+    .detalle-foto {
+        display: block;
+        width: 100%;
+        max-height: 420px;
+        object-fit: contain;
+        background: #f5f7fa;
+        padding: 15px;
+    }
+
+    .detalle-sin-foto {
+        padding: 45px 15px;
+        text-align: center;
+        color: #64748b;
+        background: #f5f7fa;
+    }
+
+    .detalle-datos {
+        padding: 25px;
+    }
+
+    .dato {
+        padding: 14px 0;
+        border-bottom: 1px solid #e5e7eb;
+    }
+
+        .dato strong {
+            display: block;
+            color: #174ea6;
+            margin-bottom: 5px;
+        }
+
+    .detalle-botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 0 25px 25px;
+    }
+
+    .boton {
+        display: inline-block;
+        padding: 11px 18px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .boton-volver {
+        background: #174ea6;
+        color: white;
+    }
+
+    .boton-editar {
+        background: #e8f1ff;
+        color: #174ea6;
+    }
+
+    .boton:hover {
+        opacity: 0.85;
+    }
+</style>
+
+<div class="detalle-contenedor">
+    <div class="detalle-tarjeta">
+
+        <div class="detalle-encabezado">
+            <h1>Detalles del objeto</h1>
+            <p>Información del objeto reportado en FindIt</p>
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(Model.ObjetoDetalle?.FotoURL))
+        {
+            <img src="@Model.ObjetoDetalle.FotoURL"
+                 alt="Fotografía del objeto"
+                 class="detalle-foto" />
+        }
+        else
+        {
+            <div class="detalle-sin-foto">
+                <p>No hay una fotografía disponible para este objeto.</p>
+            </div>
+        }
+
+        <div class="detalle-datos">
+
+            <div class="dato">
+                <strong>Nombre del objeto</strong>
+                <span>@Model.ObjetoDetalle!.Nombre</span>
+            </div>
+
+            <div class="dato">
+                <strong>Descripción</strong>
+                <span>
+                    @(string.IsNullOrWhiteSpace(Model.ObjetoDetalle.Descripcion)
+                        ? "Sin descripción"
+                        : Model.ObjetoDetalle.Descripcion)
+                </span>
+            </div>
+
+            <div class="dato">
+                <strong>Categoría</strong>
+                <span>@Model.ObjetoDetalle.Categoria</span>
+            </div>
+
+            <div class="dato">
+                <strong>Ubicación</strong>
+                <span>
+                    @(string.IsNullOrWhiteSpace(Model.ObjetoDetalle.Ubicacion)
+                        ? "No especificada"
+                        : Model.ObjetoDetalle.Ubicacion)
+                </span>
+            </div>
+
+            <div class="dato">
+                <strong>Fecha del suceso</strong>
+                <span>
+                    @(Model.ObjetoDetalle.Fecha == default
+                        ? "No especificada"
+                        : Model.ObjetoDetalle.Fecha.ToString("dd/MM/yyyy"))
+                </span>
+            </div>
+
+            <div class="dato">
+                <strong>Tipo de reporte</strong>
+                <span>@Model.ObjetoDetalle.TipoReporte</span>
+            </div>
+
+            <div class="dato">
+                <strong>Estado</strong>
+                <span>@Model.ObjetoDetalle.Estado</span>
+            </div>
+
+        </div>
+
+        <div class="detalle-botones">
+            <a asp-page="/Objetos" class="boton boton-volver">
+                Volver a los objetos
+            </a>
+
+            <a asp-page="/Editar"
+               asp-route-id="@Model.ObjetoDetalle!.IdObjeto"
+               class="boton boton-editar">
+                Editar objeto
+            </a>
+        </div>
+
+    </div>
+</div>
